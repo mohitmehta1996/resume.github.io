@@ -55,18 +55,18 @@
 					
 				</div><!--//resume-header-->
 				<hr>
-				<!-- <div class="resume-intro py-3">
+				<div class="resume-intro py-3">
 					<div class="row align-items-center">
-						<div class="col-12 col-md-3 col-xl-2 text-center">
+						<!-- <div class="col-12 col-md-3 col-xl-2 text-center">
 						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/resume-profile.png" alt="image">
-						</div>
+						</div> -->
 						
 						<div class="col text-start">
 							<p class="mb-0">Summarise your career here. <a class="theme-link" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank">You can make a PDF version of your resume using our free Sketch template here</a>. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
 						</div>
 					</div>
 				</div>
-				<hr> -->
+				<hr>
 				<div class="resume-body">
 					<div class="row">
 						<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
@@ -74,7 +74,7 @@
 								<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Software Developer</h4>
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Lead Software Developer</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Uplers | Jan 2020 - Present</div>
 									</div>
 									<div class="item-content">
@@ -123,7 +123,15 @@
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Laravel + React</div>
 									</div>
 									<div class="item-content">
-										<p>Developed an advanced Application Tracking System (ATS) with features including candidate-initiated skilled assessments, dynamic profile creation and seamless application for job openings. Implemented efficient candidate and job opening management functionalities for recruiters, accompanied by candidate's real-time application status updates, insightful assessment score tracking, and the capacity to execute impactful email campaigns.</p>
+										<ul class="resume-list">
+											<li>Developed an Application Tracking System/Job portal with candidate and recruiter functionalities.</li>
+											<li>Enabled candidate account creation, profile setup, and video resume recording.</li>
+											<li>Implemented Boolean search using Apache Solr for effective candidate search by recruiters.</li>
+											<li>Developed AI-based vector matchmaking to help recruiters identify the best candidates for any job.</li>
+											<li>Built AI-based assessments tailored to each job using the job description to evaluate candidate suitability.</li>
+											<li>Implemented AWS Auto Scaling which increase/decrease servers based on traffic. Created CI/CD pipeline using Github Actions and AWS Lambda to deploy code on all server in few minutes.</li>
+										</ul>
+										
 									</div>
 								</div><!--//item-->
 								<div class="item">
@@ -149,18 +157,17 @@
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Email Campaign Management System</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Laravel + Python</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Laravel + AWS SES, Lambda</div>
 										
 									</div>
 									<div class="item-content">
-										<p>An Email Campaign Management System is a software that allows users to create and manage email campaigns, send bulk emails to a large number of recipients, and track the performance of those campaigns through various analytics and reports. The AI model, a core component of the system, employs predictive analytics to recommend impactful subject lines, elevating open rates and engagement. Additionally, the AI intelligently identifies the most optimal delivery times for each email, ensuring maximum visibility and impact.</p>
+										<p>An Email Campaign Management System is a software that allows users to create and manage email campaigns, send bulk emails to a large number of recipients, and track the performance of those campaigns through various analytics and reports. It's capable to send millions of email in few minutes and can store tracking information like email delivery, open rate via AWS SQS and Lambda.</p>
 									</div>
 								</div><!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Inventory & Sales Manager Android App</h4>
 										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">React Native + Laravel</div>
-										
 									</div>
 									<div class="item-content">
 										<p>An Android app for stationery wholesalers to handle retailer orders and inventory while enabling retailers to easily place and manage orders via mobile.</p>
@@ -174,24 +181,10 @@
 								<div class="item mb-3">
 									<div class="item-content">
 										<ul class="list-unstyled resume-skills-list">
-											<li class="mb-2">Amazon and Walmart Scraping using Puppeteer NodeJS to store data in Laravel backend.</li>
-											<li class="mb-2">Developed Shopify app in Laravel using Shopify's REST APIs.</li>
 											<li class="">Created custom CI/CD pipeline in Github Actions to auto deploy projects on server.</li>
-										</ul>
-									</div>
-								</div><!--//item-->
-							</section>
-							<hr>
-
-							<section class="project-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">ADDITIONAL SKILLS</h3>
-								<div class="item mb-3">
-									<div class="item-content">
-										<ul class="list-unstyled resume-skills-list">
-											<li class="mb-2">Expertise in linux server setup from the scratch</li>
-											<li class="mb-2">Can handle larger amount of data with less execution time</li>
-											<li class="mb-2">Expertise in efficient database designing</li>
-											<li class="">Proven Team management and Project management skills</li>
+											<li class="mb-2">Amazon and Walmart Scraping using Puppeteer NodeJS to store data in Laravel backend.</li>
+											<!-- <li class="mb-2">Developed Shopify app in Laravel using Shopify's REST APIs.</li> -->
+										
 										</ul>
 									</div>
 								</div><!--//item-->
@@ -208,10 +201,9 @@
 										<li class="mb-2">React JS / React Native App development<li>
 										<li class="mb-2">Node JS</li>
 										<li class="mb-2">Python / Django<li>
-										<li class="mb-2">Rest API<li>
 										<li class="mb-2">MySQL</li>
 										<li class="mb-2">JavaScript, jQuery, CSS3</li>
-										<li class="">AWS SES, SNS, EC2, RDS</li>
+										<li class="">AWS SES, SNS, EC2, RDS, Lambda, SQS</li>
 
 									</ul>
 								</div>
@@ -254,30 +246,15 @@
 												<li class="mb-2">Asana</li>
 											</ul>
 										</div>
-										<div class="item">
-											<h4 class="item-title">Operating System</h4>
-											<ul class="">
-												<li class="mb-2">Windows</li>
-												<li class="mb-2">Linux based (Ubuntu, Debian, CentOS)</li>
-											</ul>
-										</div>
 									</section>
 									<hr>
 									<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+										<h3 class="text-uppercase resume-section-heading mb-4">ADDITIONAL SKILLS</h3>
 										<ul class="list-unstyled resume-lang-list">
-											<li class="mb-2">English</li>
-											<li class="mb-2">Hindi</span></li>
-											<li>Gujarati <span class="text-muted">(Native)</span></li>
-										</ul>
-									</section>
-									<hr>
-									<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">PERSONAL QUALITIES</h3>
-										<ul class="list-unstyled resume-lang-list">
-											<li class="mb-2">Highly motivated and eager to learn new things</li>
-											<li class="mb-2">Ability to work as individual as well as in group</span></li>
-											<li>Willingness to travel</li>
+											<li class="mb-2">Expertise in linux server setup from the scratch</li>
+											<li class="mb-2">Can handle larger amount of data with less execution time</li>
+											<li class="mb-2">Expertise in efficient database designing</li>
+											<li class="">Proven Team management and Project management skills</li>
 										</ul>
 									</section>
 									<!-- <section class="skills-section py-3">
